@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+  color: aqua;
+  background-color: yellow;
+  transition: background-color 3s ease-in-out;
+  animation: suavizar 4s infinite alternate forwards;
+}
+
+.meio {
+  text-align: center;
+  color: pink;
+  box-shadow: orange;
+}
+
+.centro {
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px gray;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: black;
+}
+
+@keyframes suavizar {
+  0% {
+    background-color: red;
+  }
+  50%{
+    background-color: green
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px white;
+}
+
+.botao-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background-color: aqua;
+  color: black;
+  border: none;
+  font-size: 18px;
+}
+
+.lateral {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0.75;
+  transition: left 0.3s ease-in-out;
+}
+
+.lateral.aberta {
+  left: 0;
+}
+
+.linha-imagens {
+  
+  display: collum;
+  justify-content: center;
+  gap: 20px
+}
