@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.home {
+    background-image: url(../imagens/1x1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    text-align: center;
+}
+
+.lucky {
+    width: 250px; 
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gray
+}
