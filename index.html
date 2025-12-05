@@ -10,7 +10,12 @@
   </head>
     
    <body>
-    <button id="botao-menu" class="botao-menu">☰ Menu</button>
+    <div class="botao-topo">
+      <button id="botao-menu" class="botao">☰ Menu</button>
+      <button class="botao" onclick="mudarconteudo('home')">Home</button>
+      <button class="botao" onclick="mudarconteudo('sobre')">Sobre</button>
+      <button class="botao" onclick="mudarconteudo('galeria')">Galeria</button>
+    </div>
     <h1>Hello word</h1>
     <div class="lucky">
       <p><span style="color: pink; margin: 25px 0 25px 34%;">cute</span></p>
@@ -18,6 +23,7 @@
       <p class="historia"><span style="color: white; margin: 25px 0 25px -20%;" >O lucky nasceu em 2016 </span></p>
     </div>
      <div class="lateral" id="barra-lateral">
+      <br><br>
        <h2>Informações</h2>
        <p>bla bla bla bla bla bla bla</p>
        <button id="botao-musica">🎵 Tocar Música</button>
