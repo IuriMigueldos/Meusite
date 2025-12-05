@@ -6,18 +6,11 @@ h1 {
   animation: suavizar 4s infinite alternate forwards;
 }
 
-.lucky {
-  margin: 25px 0 25px 75%;
-}
-
-.historia {
-  text-align: center;
-}
-
 img {
   width: 250px;
   border-radius: 20px;
   box-shadow: 3px 3px 10px gray;
+  margin: 20px auto;
 }
 
 body {
