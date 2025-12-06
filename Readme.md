@@ -2,7 +2,7 @@
 
 Arquivo Hello Word.
 
-Esse é meu primeiro site eu usei um pouco de IA para me ajudar.
+Esse é meu primeiro site.
 
 Vou contar um pouco da minha história.
 
