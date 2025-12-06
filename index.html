@@ -1,37 +1,39 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <link rel="stylesheet" href="style.css">
-    <title>Hello word</title>
-  </head> 
-   <body>
-    <div class="botao-topo">
-      <button id="botao-menu" class="botao">☰ Menu</button>
-      <button id="home" class="botao">Home</button>
-      <button class="botao">Sobre</button>
-      <button class="botao">Galeria</button>
-      <button class="botao">Créditos</button>
-    </div>
-    <h1>Hello word</h1>
-    <div id="conteudo">
-    </div>
-     <div class="lateral" id="barra-lateral">
-      <br><br>
-       <h2>Informações</h2>
-       <p>bla bla bla bla bla bla bla</p>
-       <h2>Spotucky</h2>
-       <div>
-        <p id="musica-atual" style="color: white;">Carregando...</p>
-          <button id="voltar" class="botao">⏮️</button>
-          <button id="play" class="botao">▶️</button>
-          <button id="avancar" class="botao">⏭️</button>
-          <audio id="audio"></audio>
-       </div>
-     </div>
-     <script src="js.js"></script>
-   </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Hello word</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Iuri Miguel">
+  <meta name="description" content="Meu primeiro site">
+  <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+          </li>
+        <li>
+          <a href="#sobre">Sobre</a>
+        </li>
+        <li>
+          <a href="#galeria">Galeria</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <h1>Hello Word</h1>
+    <p>Meu primeiro site em HTML5</p>
+    <img class="lucky" src="imagens/1.jpeg" alt="luck">
+  </section>
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+  </section>
+  <section id="galeria"></section>
+</body>
 </html>
